@@ -20,15 +20,15 @@ namespace CodeCosmos {
     //% block="startingPosition x:$x y:$y z:$z"
     //% block.loc.nl="zetKlaar x:$x y:$y z:$z"
     export function startingPositionLevel2(x: number, y: number, z: number) {
-        agent.teleport(world(x, y, z), NORTH)
-        player.execute(`function levels/level1/reset`);
+        agent.teleport(world(x, y, z), SOUTH)
+        player.execute(`function levels/level2/reset`);
     }
 
     //% block="startingPosition x:$x y:$y z:$z"
     //% block.loc.nl="zetKlaar x:$x y:$y z:$z"
     export function startingPositionLevel3(x: number, y: number, z: number) {
-        agent.teleport(world(x, y, z), NORTH)
-        player.execute(`function levels/level1/reset`);
+        agent.teleport(world(x, y, z), SOUTH)
+        player.execute(`function levels/level2/reset`);
     }
 
 
