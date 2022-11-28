@@ -36,10 +36,6 @@ namespace CodeCosmos {
     //% block="place $item"
     //% block.loc.nl="plaats $item"
     export function place(item:Items) {
-        agent.setItem(FARMLAND, 64, 1);
-        agent.setItem(WATER, 64, 1);
-        agent.setSlot(item+1);
-      
         blocks.place(item === 0 ? WATER : FARMLAND, world(agent.getPosition().getValue(Axis.X), agent.getPosition().getValue(Axis.Y) - 1, agent.getPosition().getValue(Axis.Z)))
     }
 
