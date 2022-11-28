@@ -10,10 +10,8 @@
         "main.blocks",
         "main.ts",
         "custom_functions.ts",
-        "t_level1.md",
-        "t_level2.md",
-        "t_level3.md",
-        "t_no_exercise.md"
+        "t_no_exercise.md",
+        "t_level1-3.md"
     ],
     "testFiles": [
         "test.ts"
