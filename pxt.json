@@ -7,9 +7,10 @@
         "builder": "*"
     },
     "files": [
-        "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "custom_functions.ts",
+        "t_level1.md"
     ],
     "testFiles": [
         "test.ts"
