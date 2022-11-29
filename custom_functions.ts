@@ -14,9 +14,9 @@ namespace CodeCosmos {
     //% block.loc.nl="zetKlaar x:$x y:$y z:$z"
     export function startingPosition(x:number, y:number, z:number) {
         agent.teleport(world(x,y,z), SOUTH)
-        player.execute(`execute @a[scores={level=1}] function levels/level1/reset`);
-        player.execute(`execute @a[scores={level=2}] function levels/level2/reset`);
-        player.execute(`execute @a[scores={level=3}] function levels/level3/reset`);
+        player.execute(`execute @a[scores={level=1}] ~ ~ ~ function levels/level1/reset`);
+        player.execute(`execute @a[scores={level=2}] ~ ~ ~ function levels/level2/reset`);
+        player.execute(`execute @a[scores={level=3}] ~ ~ ~ function levels/level3/reset`);
     }
 
     //% block="place $item"
