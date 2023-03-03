@@ -7,8 +7,8 @@ player.onChat("run", function () {
         agent.move(FORWARD, 1)
         agent.turn(LEFT_TURN)
     }
-    CodeCosmosEN.startingPosition(10,10,10)
-    CodeCosmosEN.place(Items.Water)
+    CodeCosmos.startingPosition(10,10,10)
+    CodeCosmos.place(Items.Water)
 })
 ```
 ```template
@@ -22,5 +22,5 @@ player.onChat("level3", function () {
 
 })
 ```
-## Building fields
-Use the learning platform to solve the exercise.
+## Velden bouwen
+Volg de instructies op het leerplatform om de opdracht op te lossen.

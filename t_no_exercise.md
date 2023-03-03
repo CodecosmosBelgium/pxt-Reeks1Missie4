@@ -1,5 +1,5 @@
 ### @hideIteration true
 # Missie 4 (v1.1)
-## Geen oefening
+## No exercise
 
-Er is geen oefening, ga verder tot aan de volgende oefening.
+There is no exercise.
