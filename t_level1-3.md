@@ -8,7 +8,7 @@ player.onChat("run", function () {
         agent.turn(LEFT_TURN)
     }
     CodeCosmosEN.startingPosition(10,10,10)
-    CodeCosmosEN.place(Items.Water)
+    CodeCosmosEN.place(ItemsEN.Water)
 })
 ```
 ```template
