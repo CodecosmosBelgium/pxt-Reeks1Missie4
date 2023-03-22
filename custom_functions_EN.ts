@@ -1,7 +1,7 @@
 enum ItemsEN {
     //% block="Water"
     Water,
-    //% block="Aarde"
+    //% block="Farmland"
     Farmland
 }
 
